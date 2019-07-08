@@ -9,7 +9,6 @@ import java.util.List;
 
 public class ResultsPage extends Hooks {
     //SIZE TEST
-
     public void WomenSection(String customerSelectedSize) {
         driver.findElement(By.linkText("Women")).click();
         List<WebElement> sizeWebelements = driver.findElements(By.cssSelector(".pw-accordion__content-wrapper .pw-accordion__content"));
